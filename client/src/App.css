@@ -1,0 +1,19 @@
+html,
+body {
+  background: url(keyboard1.jpg) no-repeat center center fixed;
+  height: 100%;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+}
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}
