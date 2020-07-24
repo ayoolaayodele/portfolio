@@ -1,6 +1,6 @@
 const express = require('express');
-// const connectDB = require('./config/db');
 const path = require('path');
+const connectDB = require('./config/db');
 
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 
 //Connect Database
-// connectDB();
+connectDB();
 
 app.use(bodyParser.json());
 
