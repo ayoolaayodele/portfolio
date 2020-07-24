@@ -1,14 +1,22 @@
 const express = require('express');
 const path = require('path');
-const connectDB = require('./config/db');
-
+const app = express();
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const dotenv = require('dotenv');
+dotenv.config();
 
-const app = express();
+mongoose
+  .connect(process.env.mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('DB Connected'));
 
-//Connect Database
-connectDB();
+mongoose.connection.on('error', (err) => {
+  console.log(`DB connection error: ${err.message}`);
+});
 
 app.use(bodyParser.json());
 
