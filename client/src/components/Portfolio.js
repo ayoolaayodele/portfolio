@@ -84,7 +84,7 @@ const Portfolio = () => {
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Project 2
+                  Interact
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
                   This is a MERN stack javascript project, built with MongoDB,
