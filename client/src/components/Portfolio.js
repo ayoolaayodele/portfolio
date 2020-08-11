@@ -30,24 +30,24 @@ const Portfolio = () => {
     <Box component='div'>
       <Navbar />
       <Grid container justify='center'>
-        {/* project 1 */}
+        {/* project 3 */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
                 component='img'
-                alt='project 1'
-                image={project1}
+                alt='project 3'
+                image={project3}
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Road Estimator
+                  Meet Developers
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  This is a Civil Engineering application to quantify quantity
-                  of materials on road site. This material includes asphalt,
-                  subbase and laterites.This application was built with HTML,
-                  CSS and vanilla javascript
+                  This is a full stack MERN stack application built with
+                  MongoDB, Express, React, NodeJS and Redux for its state
+                  management. It is an application to connect with other
+                  developers.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://road-estimator12345.netlify.app'
+                href='https://meetdevs.herokuapp.com/'
               >
                 Live
               </Button>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://github.com/ayoolaayodele/road-estimator'
+                href='https://github.com/ayoolaayodele/MeetDevs'
               >
                 Code
               </Button>
@@ -124,23 +124,24 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* project 3 */}
+        {/* project 1 */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
                 component='img'
-                alt='project 3'
-                image={project3}
+                alt='project 1'
+                image={project1}
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Project 3
+                  Road Estimator
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae eaque, incidunt esse numquam velit sequi. Culpa
-                  corporis blanditiis laudantium expedita?
+                  This is a Civil Engineering application to quantify quantity
+                  of materials on road site. This material includes asphalt,
+                  subbase and laterites.This application was built with HTML,
+                  CSS and vanilla javascript
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -150,7 +151,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-frontend'
+                href='https://road-estimator12345.netlify.app'
               >
                 Live
               </Button>
@@ -158,7 +159,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-frontend'
+                href='https://github.com/ayoolaayodele/road-estimator'
               >
                 Code
               </Button>
