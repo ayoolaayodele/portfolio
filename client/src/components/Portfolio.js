@@ -36,6 +36,54 @@ const Portfolio = () => {
             <CardActionArea>
               <CardMedia
                 component='img'
+                alt='project 4'
+                image={project4}
+              ></CardMedia>
+              <CardContent>
+                <Typography gutterBottom variant='h5'>
+                  Coders BookStore
+                </Typography>
+                <Typography variant='body2' color='textSecondary' component='p'>
+                  This is a full stack/MERN stack(MongoDb, Express React, Node)
+                  Ecommerce App from Scratch to Deployment
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+
+            <CardActions>
+              <Button
+                size='small'
+                variant='outlined'
+                color='primary'
+                href='http://165.232.114.51/'
+              >
+                Live
+              </Button>
+              <Button
+                size='small'
+                variant='outlined'
+                color='primary'
+                href='https://github.com/ayoolaayodele/ecommerce-front'
+              >
+                FrontCode
+              </Button>
+              <Button
+                size='small'
+                variant='outlined'
+                color='primary'
+                href='https://github.com/ayoolaayodele/ecommerce-back'
+              >
+                BackCode
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component='img'
                 alt='project 3'
                 image={project3}
               ></CardMedia>
@@ -68,57 +116,6 @@ const Portfolio = () => {
                 href='https://github.com/ayoolaayodele/MeetDevs'
               >
                 Code
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        {/* project 2 */}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            <CardActionArea>
-              <CardMedia
-                component='img'
-                alt='project 2'
-                image={project2}
-              ></CardMedia>
-              <CardContent>
-                <Typography gutterBottom variant='h5'>
-                  Interact
-                </Typography>
-                <Typography variant='body2' color='textSecondary' component='p'>
-                  This is a MERN stack javascript project, built with MongoDB,
-                  Express, React and Node JS. It is a Social application built
-                  from scratch and deployed to heroku.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-
-            <CardActions>
-              <Button
-                size='small'
-                variant='outlined'
-                color='primary'
-                href='https://frontendinteract.herokuapp.com/'
-              >
-                Live
-              </Button>
-              <span></span>
-              <Button
-                size='small'
-                variant='outlined'
-                color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-frontend'
-              >
-                FrontCode
-              </Button>
-              <Button
-                size='small'
-                variant='outlined'
-                color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-backend'
-              >
-                BackCode
               </Button>
             </CardActions>
           </Card>
@@ -173,17 +170,17 @@ const Portfolio = () => {
             <CardActionArea>
               <CardMedia
                 component='img'
-                alt='project 4'
-                image={project4}
+                alt='project 2'
+                image={project2}
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Project 4
+                  Interact
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae eaque, incidunt esse numquam velit sequi. Culpa
-                  corporis blanditiis laudantium expedita?
+                  This is a MERN stack javascript project, built with MongoDB,
+                  Express, React and Node JS. It is a Social application built
+                  from scratch and deployed to heroku.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -193,17 +190,26 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://google.com'
+                href='https://frontendinteract.herokuapp.com/'
               >
                 Live
+              </Button>
+              <span></span>
+              <Button
+                size='small'
+                variant='outlined'
+                color='primary'
+                href='https://github.com/ayoolaayodele/socialapp-frontend'
+              >
+                FrontCode
               </Button>
               <Button
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://google.com'
+                href='https://github.com/ayoolaayodele/socialapp-backend'
               >
-                Code
+                BackCode
               </Button>
             </CardActions>
           </Card>

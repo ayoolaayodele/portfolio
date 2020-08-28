@@ -62,7 +62,12 @@ const Contacts = () => {
     event.preventDefault();
 
     setContact({
-      disabled: true,
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+      disabled: false,
+      emailSent: '',
     });
 
     Axios.post('http://localhost:5000/api/email', contact)
