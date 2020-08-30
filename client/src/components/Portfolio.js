@@ -136,9 +136,8 @@ const Portfolio = () => {
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
                   This is a Civil Engineering application to quantify quantity
-                  of materials on road site. This material includes asphalt,
-                  subbase and laterites.This application was built with HTML,
-                  CSS and vanilla javascript
+                  of materials used on a road site.This application was built
+                  with bootstrap and vanilla javascript
                 </Typography>
               </CardContent>
             </CardActionArea>

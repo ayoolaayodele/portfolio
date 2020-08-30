@@ -139,9 +139,9 @@ const Resume = () => {
               align='center'
               style={{ color: 'tan' }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              eaque, incidunt esse numquam velit sequi. Culpa corporis
-              blanditiis laudantium expedita?
+              Built road estimator to quantify quantity of materials used on a
+              road. This application was built with bootstrap and vanilla
+              javascript
             </Typography>
           </Box>
           <Typography
