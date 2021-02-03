@@ -1,5 +1,7 @@
 const sendGrid = require('@sendgrid/mail');
 
+
+// email path
 app.post('/api/email', (req, res, next) => {
   console.log(req.body);
 
