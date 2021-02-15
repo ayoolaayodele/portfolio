@@ -137,7 +137,7 @@ const Resume = () => {
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'tan' }}
+              style={{ color: 'white' }}
             >
               Built road estimator to quantify quantity of materials used on a
               road. This application was built with bootstrap and vanilla
@@ -168,7 +168,7 @@ const Resume = () => {
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'tan' }}
+              style={{ color: 'white' }}
             >
               Built social network application using technologies like React,
               Redux for state management, node js, and mongo DB
@@ -198,7 +198,7 @@ const Resume = () => {
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'tan' }}
+              style={{ color: 'white' }}
             >
               Built Ecommerce application using technologies like Modern
               Javascript Es6, React, Nodejs and Mongo DB

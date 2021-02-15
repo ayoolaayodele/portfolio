@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: '1rem',
-    color: 'tomato',
+    color: 'white',
     borderColor: 'tomato',
   },
 }));
@@ -102,7 +102,7 @@ const Contacts = () => {
           <Typography
             variant='h5'
             style={{
-              color: 'tomato',
+              color: 'white',
               textAlign: 'center',
               textTransform: 'uppercase',
             }}
