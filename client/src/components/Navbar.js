@@ -27,7 +27,7 @@ import {
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: '#333',
+    background: '	#152238',
     height: '100%',
   },
  
