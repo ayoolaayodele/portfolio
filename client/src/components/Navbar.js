@@ -10,7 +10,6 @@ import {
   IconButton,
   ListItemIcon,
   ListItemText,
-  Avatar,
   Divider,
   List,
   Typography,
@@ -23,22 +22,15 @@ import {
   Apps,
   ContactMail,
 } from '@material-ui/icons';
-import avatar from '../images/avatar.png';
 
 // CSS STYLES
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: '#00264b',
+    background: '#333',
     height: '100%',
   },
-  avatar: {
-    display: 'block',
-    margin: '0.5rem auto',
-    width: theme.spacing(13),
-    height: theme.spacing(13),
-  },
-
+ 
   listItem: {
     color: 'tan',
   },
@@ -48,6 +40,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const menuItems = [
+  {
+    margin: '50px',
+  },
   {
     listIcon: <Home />,
     listText: 'Home',
@@ -87,7 +82,7 @@ const Navbar = () => {
       component='div'
       onClick={toggleSlider(slider, false)}
     >
-      <Avatar className={classes.avatar} src={avatar} alt='Ayodele' />
+ 
       <Divider />
       <List>
         {menuItems.map((menuItem, key) => (
@@ -107,7 +102,7 @@ const Navbar = () => {
   return (
     <>
       <Box component='nav'>
-        <AppBar position='static' style={{ background: '#000' }}>
+        <AppBar position='static' style={{ background: 'transparent' }}>
           <Toolbar>
             <IconButton onClick={toggleSlider('right', true)}>
               <ArrowBack style={{ color: '#f44336' }} />
