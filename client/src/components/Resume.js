@@ -1,105 +1,105 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Box } from '@material-ui/core';
-import Navbar from './Navbar';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { Typography, Box } from "@material-ui/core";
+import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
   // mainContainer: {
   //   background: '#000080',
   // },
   timeLine: {
-    position: 'relative',
-    padding: '1rem',
-    margin: '0 auto',
-    '&:before': {
+    position: "relative",
+    padding: "1rem",
+    margin: "0 auto",
+    "&:before": {
       content: "''",
-      position: 'absolute',
-      height: '100%',
-      border: '1px solid tan',
-      right: '40px',
+      position: "absolute",
+      height: "100%",
+      border: "1px solid tan",
+      right: "40px",
       top: 0,
     },
-    '&:after': {
+    "&:after": {
       content: "''",
-      display: 'table',
-      clear: 'both',
+      display: "table",
+      clear: "both",
     },
-    [theme.breakpoints.up('md')]: {
-      padding: '2rem',
-      '&:before': {
-        left: 'calc(50% - 1px)',
-        right: 'auto',
+    [theme.breakpoints.up("md")]: {
+      padding: "2rem",
+      "&:before": {
+        left: "calc(50% - 1px)",
+        right: "auto",
       },
     },
   },
   timeLineItem: {
-    padding: '1rem',
-    borderBottom: '2px solid tan',
-    position: 'relative',
-    margin: '1rem 3rem 1rem 1rem',
-    clear: 'both',
-    '&:after': {
+    padding: "1rem",
+    borderBottom: "2px solid tan",
+    position: "relative",
+    margin: "1rem 3rem 1rem 1rem",
+    clear: "both",
+    "&:after": {
       content: "''",
-      position: 'absolute',
+      position: "absolute",
     },
-    '&:before': {
+    "&:before": {
       content: "''",
-      position: 'absolute',
-      right: '-0.625rem',
-      top: 'calc(50% - 5px)',
-      borderStyle: 'solid',
-      borderColor: 'tomato tomato transparent transparent',
-      borderWidth: '0.625',
-      transform: 'rotate(45deg)',
+      position: "absolute",
+      right: "-0.625rem",
+      top: "calc(50% - 5px)",
+      borderStyle: "solid",
+      borderColor: "tomato tomato transparent transparent",
+      borderWidth: "0.625",
+      transform: "rotate(45deg)",
     },
-    [theme.breakpoints.up('md')]: {
-      width: '44%',
-      margin: '1rem',
-      '&:nth-of-type(2n)': {
-        float: 'right',
-        margin: '1rem',
-        borderColor: 'tan',
+    [theme.breakpoints.up("md")]: {
+      width: "44%",
+      margin: "1rem",
+      "&:nth-of-type(2n)": {
+        float: "right",
+        margin: "1rem",
+        borderColor: "tan",
       },
-      '&:nth-of-type(2n):before': {
-        right: 'auto',
-        left: '-0.625rem',
-        borderColor: 'transparent transparent tomato tomato',
+      "&:nth-of-type(2n):before": {
+        right: "auto",
+        left: "-0.625rem",
+        borderColor: "transparent transparent tomato tomato",
       },
     },
   },
   timeLineYear: {
-    textAlign: 'center',
-    maxWidth: '9.375rem',
-    margin: '0 3rem 0 auto',
-    fontSize: '1.8rem',
-    background: 'tomato',
-    color: 'white',
+    textAlign: "center",
+    maxWidth: "9.375rem",
+    margin: "0 3rem 0 auto",
+    fontSize: "1.8rem",
+    background: "tomato",
+    color: "white",
     lineHeight: 1,
-    padding: '0.5rem 0 1rem',
-    '&:before': {
-      display: 'none',
+    padding: "0.5rem 0 1rem",
+    "&:before": {
+      display: "none",
     },
-    [theme.breakpoints.up('md')]: {
-      textAlign: 'center',
-      margin: '0 auto',
-      '&:nth-of-type(2n)': {
-        float: 'none',
-        margin: '0 auto',
+    [theme.breakpoints.up("md")]: {
+      textAlign: "center",
+      margin: "0 auto",
+      "&:nth-of-type(2n)": {
+        float: "none",
+        margin: "0 auto",
       },
-      '&:nth-of-type(2n):before': {
-        display: 'none',
+      "&:nth-of-type(2n):before": {
+        display: "none",
       },
     },
   },
   heading: {
-    color: 'tomato',
-    padding: '3rem 0',
-    textTransform: 'uppercase',
+    color: "tomato",
+    padding: "3rem 0",
+    textTransform: "uppercase",
   },
   subHeading: {
-    color: 'white',
-    padding: '0',
-    textTransform: 'uppercase',
+    color: "white",
+    padding: "0",
+    textTransform: "uppercase",
   },
 }));
 
@@ -130,14 +130,14 @@ const Resume = () => {
             <Typography
               variant='body1'
               align='center'
-              style={{ color: 'tomato' }}
+              style={{ color: "tomato" }}
             >
               Freelancer
             </Typography>
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'white' }}
+              style={{ color: "white" }}
             >
               Built road estimator to quantify quantity of materials used on a
               road. This application was built with bootstrap and vanilla
@@ -161,14 +161,14 @@ const Resume = () => {
             <Typography
               variant='body1'
               align='center'
-              style={{ color: 'tomato' }}
+              style={{ color: "tomato" }}
             >
               Freelancer
             </Typography>
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'white' }}
+              style={{ color: "white" }}
             >
               Built social network application using technologies like React,
               Redux for state management, node js, and mongo DB
@@ -191,17 +191,17 @@ const Resume = () => {
             <Typography
               variant='body1'
               align='center'
-              style={{ color: 'tomato' }}
+              style={{ color: "tomato" }}
             >
               Freelancer
             </Typography>
             <Typography
               variant='subtitle1'
               align='center'
-              style={{ color: 'white' }}
+              style={{ color: "white" }}
             >
-              Built Ecommerce application using technologies like Modern
-              Javascript Es6, React, Nodejs and Mongo DB
+              Built instagram clone using react, firebase for its database,
+              authentication and hosting
             </Typography>
           </Box>
         </Box>
