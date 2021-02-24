@@ -186,7 +186,7 @@ const Resume = () => {
               align='center'
               className={classes.subHeading}
             >
-              mern stack
+              react
             </Typography>
             <Typography
               variant='body1'
