@@ -1,5 +1,5 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 import {
   Box,
   Grid,
@@ -10,17 +10,17 @@ import {
   CardMedia,
   Button,
   Typography,
-} from '@material-ui/core';
-import Navbar from './Navbar';
-import project1 from '../images/project1.png';
-import project2 from '../images/project2.png';
-import project3 from '../images/project3.png';
-import project4 from '../images/project4.png';
+} from "@material-ui/core";
+import Navbar from "./Navbar";
+import project1 from "../images/project1.png";
+import project2 from "../images/project2.png";
+import project3 from "../images/project3.png";
+import project4 from "../images/project4.png";
 
 const useStyles = makeStyles({
   cardContainer: {
     maxWidth: 345,
-    margin: '5rem auto',
+    margin: "5rem auto",
   },
 });
 
@@ -41,11 +41,13 @@ const Portfolio = () => {
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Coders BookStore
+                  Instagram Clone
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  This is a full stack/MERN stack(MongoDb, Express React, Node)
-                  Ecommerce App from Scratch to Deployment
+                  This is a full stack application built using technologies like
+                  react, firebase for its database, authentication and hosting,
+                  materialUI for all icons. It has important features like image
+                  upload, comments.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -55,7 +57,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='http://165.232.114.51/'
+                href='https://instagram-clone-e4c32.web.app/'
               >
                 Live
               </Button>
@@ -63,17 +65,9 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://github.com/ayoolaayodele/ecommerce-front'
+                href='https://github.com/ayoolaayodele/instagram-clone'
               >
-                FrontCode
-              </Button>
-              <Button
-                size='small'
-                variant='outlined'
-                color='primary'
-                href='https://github.com/ayoolaayodele/ecommerce-back'
-              >
-                BackCode
+                Code
               </Button>
             </CardActions>
           </Card>
