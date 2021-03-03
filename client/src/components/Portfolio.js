@@ -168,12 +168,14 @@ const Portfolio = () => {
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant='h5'>
-                  Interact
+                  Doodle
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  This is a MERN stack javascript project, built with MongoDB,
-                  Express, React and Node JS. It is a Social application built
-                  from scratch and deployed to heroku.
+                  This is a google-clone built with React, contextAPI to manage
+                  the state, MaterialUI for all the icons, React-router to
+                  navigate to other pages, Google-custom search API where we
+                  pull live information from and firebase hosting to deploy the
+                  app.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -183,7 +185,7 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://frontendinteract.herokuapp.com/'
+                href='https://clone-1b68d.web.app/'
               >
                 Live
               </Button>
@@ -192,17 +194,9 @@ const Portfolio = () => {
                 size='small'
                 variant='outlined'
                 color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-frontend'
+                href='https://github.com/ayoolaayodele/google-clone'
               >
-                FrontCode
-              </Button>
-              <Button
-                size='small'
-                variant='outlined'
-                color='primary'
-                href='https://github.com/ayoolaayodele/socialapp-backend'
-              >
-                BackCode
+                Code
               </Button>
             </CardActions>
           </Card>

@@ -139,9 +139,10 @@ const Resume = () => {
               align='center'
               style={{ color: "white" }}
             >
-              Built road estimator to quantify quantity of materials used on a
-              road. This application was built with bootstrap and vanilla
-              javascript
+              This is a google-clone built with React, contextAPI to manage the
+              state, MaterialUI for all the icons, React-router to navigate to
+              other pages, Google-custom search API where we pull live
+              information from and firebase hosting to deploy the app.
             </Typography>
           </Box>
           <Typography
